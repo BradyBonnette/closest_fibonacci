@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "closest_fibonacci"
-  gem.homepage = "http://github.com/brady.bonnette@gmail.com/closest_fibonacci"
+  gem.homepage = "http://github.com/BradyBonnette/closest_fibonacci"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A gem to find the closest Fibonacci number without going over (\"Price is Right Rules\") when given a specific integer "
+  gem.description = "This gem will add a .closest_fibonacci method to the Integer class.  When invoked on an instance of an Integer (on either Fixnum or Bignum), it will return the largest Fibonacci number that is less than or equal to the integer on which it was called.  For example: '156.closest_fibonacci => 144'"
   gem.email = "brady.bonnette@gmail.com"
   gem.authors = ["Brady Bonnette"]
   # dependencies defined in Gemfile
