@@ -1,19 +1,22 @@
 = closest_fibonacci
 
-Description goes here.
+This gem will add a .closest_fibonacci method to the Integer class.  When invoked on an instance of an Integer (on either Fixnum or Bignum), it will return the largest Fibonacci number that is less than or equal to the integer on which it was called.  For example: '156.closest_fibonacci => 144'
 
-== Contributing to closest_fibonacci
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+== Installing closest_fibonacci
+
+Download/Check Out the latest version of the Gem from my Github account, then install it using
+
+  $ [sudo] gem install closest_fibonacci-1.0.0.gem
+
+== Test driving closest_fibonacci
+
+The easiest way to try out closest_fibonacci is to use it with irb:
+
+  $ irb -rclosest_fibonacci
+  ruby-1.9.2-p0 > 256.closest_fibonacci
+  => 233 
 
 == Copyright
 
-Copyright (c) 2011 Brady Bonnette. See LICENSE.txt for
-further details.
+Copyright (c) 2011 Brady Bonnette. See LICENSE.txt for further details.
 
