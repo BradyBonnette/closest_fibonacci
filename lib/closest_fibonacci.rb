@@ -7,9 +7,9 @@ class Integer
     arr = [0,1]
 
     until arr.last > self do
-      original_first_number = arr.first
+      number_to_add = arr.first
       arr.reverse!
-      arr[arr.length] = arr.first + original_first_number
+      arr[arr.length] = arr.first + number_to_add
     end
 
     arr.first
