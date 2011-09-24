@@ -6,10 +6,10 @@ class Integer
 
     arr = [0,1]
 
-    until arr[1] > self do
-      n = arr.first
+    until arr.last > self do
+      original_first_number = arr.first
       arr.reverse!
-      arr[1] = arr.first + n
+      arr[arr.length] = arr.first + original_first_number
     end
 
     arr.first
